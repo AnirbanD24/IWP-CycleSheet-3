@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ques2, 19BCB0015</title>
+    </head>
+    <body>
+        <h1>Enter the following details:</h1>
+        <form action="display.php" method="POST">
+            <table border="0">
+                <tr>
+                    <td>Enter Name:</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Enter Password:</td>
+                    <td><input type="password" name="pass" ></td>
+                </tr>
+                <tr>
+                    <td>Pick Gender:</td>
+                    <td><input type="radio" name="gender" value="male" id="m"><label for="m">Male</label>
+                    <input type="radio" name="gender" value="female" id="f"><label for="f">Female</label></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td>
+                        <input type="date" name="dob" id="d">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Education:</td>
+                    <td>
+                        <input type="checkbox" name="edu" id="pg" value="PG">
+                        <label for="pg">PG</label>
+                        <input type="checkbox" name="edu" id="ug" value="UG">
+                        <label for="ug">UG</label>
+                        <input type="checkbox" name="edu" id="p" value="Professional">
+                        <label for="p">Professional</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter Email id:</td>
+                    <td><input type="text" name="email" id="e"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
